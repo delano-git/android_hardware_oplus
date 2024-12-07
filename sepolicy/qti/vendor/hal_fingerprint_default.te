@@ -23,6 +23,8 @@ allow hal_fingerprint_default mnt_vendor_file:dir search;
 
 allow hal_fingerprint_default proc:file { open write };
 
+allow hal_fingerprint_default boot_status_prop:file { read };
+
 rw_dir_file(hal_fingerprint_default, vendor_persist_fingerprint_file)
 rw_dir_file(hal_fingerprint_default, vendor_proc_display)
 rw_dir_file(hal_fingerprint_default, vendor_sysfs_battery_supply)
