@@ -14,6 +14,9 @@ vendor.oplus.hardware.charger::ICharger             u:object_r:vendor_hal_charge
 # Cryptoeng
 vendor.oplus.hardware.cryptoeng::ICryptoeng         u:object_r:hal_cryptoeng_hwservice:s0
 
+# CommonDcs
+vendor.oplus.hardware.commondcs::ICommonDcsHalService    u:object_r:vendor_hal_commondcs_hwservice:s0
+
 # Display
 vendor.display.PanelChaplin::IPanelChaplin          u:object_r:hal_graphics_composer_hwservice:s0
 vendor.oplus.hardware.cwb::ICwbService              u:object_r:hal_graphics_composer_hwservice:s0
@@ -22,7 +25,6 @@ vendor.pixelworks.hardware.feature::IIrisFeature    u:object_r:hal_graphics_comp
 
 # Fingerprint
 vendor.oplus.hardware.biometrics.fingerprint::IBiometricsFingerprint    u:object_r:hal_fingerprint_hwservice:s0
-vendor.oplus.hardware.commondcs::ICommonDcsHalService                   u:object_r:hal_fingerprint_hwservice:s0
 
 # ORMS
 vendor.oplus.hardware.orms::IOrmsHalProxy    u:object_r:vendor_hal_orms_hwservice:s0
